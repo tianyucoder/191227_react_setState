@@ -32,7 +32,7 @@ export default class App extends Component {
 		//1.获取原状态
 		const {count} = this.state
 		//2.更新状态(对象式)
-		this.setState({count:count+1}) 
+		this.setState({count:count+1})
 		//3.输出更新完的状态看一看
 		console.log(this.state.count);
 		
