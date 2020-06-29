@@ -8,7 +8,6 @@ export default class App extends Component {
 								生命周期钩子 / react所监听的事件。
 						2.在非react控制的异步回调函数中更新的动作是【同步】的。
 								定时器的回调 / 原生事件监听回调 /Promise所指定的成功、失败回调 / ajax所指定的成功或失败的回调
-
 */
 
 

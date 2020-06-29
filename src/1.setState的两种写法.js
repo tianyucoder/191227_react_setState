@@ -6,9 +6,11 @@ export default class App extends Component {
 
 	深入理解setState:
 			setState()更新状态的两种写法:
+
 				(1).setState(stateChange,[callback])--------对象式的setState(常用)
 							1.stateChange是状态改变对象(可以体现出状态的更改)
 							2.callback是可选的回调函数，它在状态更新完毕、界面也更新完(render调用完)毕后，被调用。
+				
 				(2).setState(updater,[callback])---------函数式的setState
 							1.updater为返回stateChange对象的函数。
 							2.updater可以接收到state、props，即：(state,props)=>stateChange。
